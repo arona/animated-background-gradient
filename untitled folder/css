@@ -1,30 +1,6 @@
-h1 {
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-    text-align: center;
-    padding-top: 150px;
-    padding-right: 200px;
-    padding-bottom: 25px;
-    padding-left: 200px;
-    font-size: 50px;
-    
-
-}
-
-a {
-    text-align: center;
-    padding-top: 25px;
-    padding-right: 200px;
-    padding-bottom: 25px;
-    padding-left: 200px;
-    font-size: 50px;
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-
-    font-size: 25px;
-    position: relative;
-}
-
+/*
+replace html, body with what background area you want to animate
+*/
 html, body {
         text-align: center;
     margin:0;padding:0;height:100%;
@@ -55,11 +31,6 @@ html, body {
 }
 
 @keyframes AnimationName { 
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@-o-keyframes AnimationName {
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}

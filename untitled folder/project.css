@@ -1,34 +1,11 @@
-h1 {
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-    text-align: center;
-    padding-top: 150px;
-    padding-right: 200px;
-    padding-bottom: 25px;
-    padding-left: 200px;
-    font-size: 50px;
-    
-
-}
-
-a {
-    text-align: center;
-    padding-top: 25px;
-    padding-right: 200px;
-    padding-bottom: 25px;
-    padding-left: 200px;
-    font-size: 50px;
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-
-    font-size: 25px;
-    position: relative;
-}
-
+/*
+replace html, body with what background area you want to animate
+*/
 html, body {
-        text-align: center;
+    text-align: center;
     margin:0;padding:0;height:100%;
     position: relative;
+    /* replace colors to what you would like. */
     background: -webkit-linear-gradient(45deg, #59ADEB 10%, #35CE93 90%);
     background: linear-gradient(45deg, #59ADEB 10%, #35CE93 90%);
     overflow: hidden;
@@ -37,6 +14,7 @@ html, body {
     animation: move 10s ease infinite;
 
     }
+/* this is where the magic happens */
 @-webkit-keyframes move {
     0% {
         background-position: 0 0;
