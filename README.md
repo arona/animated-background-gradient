@@ -1,4 +1,7 @@
 # animated-background-gradient
+[check it out in action here](http://arona.github.io/animated-background-gradient/)
+
+
 ![alt tag](http://i.imgur.com/yhkAAwc.gif)
 
 as the name would suggest, you can animate a background gradient using CSS3.
